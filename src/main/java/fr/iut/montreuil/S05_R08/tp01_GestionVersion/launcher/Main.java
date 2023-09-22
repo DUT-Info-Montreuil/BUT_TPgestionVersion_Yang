@@ -29,7 +29,7 @@ public class Main extends Application {
         primaryStage.getIcons().add(new Image(new File("src/main/java/fr/iut/montreuil/S05_R08/tp01_GestionVersion/ressources/logo.png").toURI().toURL().toString()));
         scene.setOnKeyPressed(Controller::keyManager);
         scene.setOnKeyReleased(Controller::keyReleaseManager);
-        primaryStage.setTitle("Tales of a Blind World GOTY 2023 Edition");
+        primaryStage.setTitle("Tales of Gojo Satoru GOTY 2023 Edition");
         primaryStage.setScene(scene);
 
 
