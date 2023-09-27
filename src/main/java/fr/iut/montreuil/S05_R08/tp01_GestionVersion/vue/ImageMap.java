@@ -42,8 +42,9 @@ public class ImageMap {
 	        map.put("villageois5", new Image(new File("src/main/java/fr/iut/montreuil/S05_R08/tp01_GestionVersion/ressources/pnj/villageois5.png").toURI().toURL().toString()));
 	        map.put("chocobo",new Image(new File("src/main/java/fr/iut/montreuil/S05_R08/tp01_GestionVersion/ressources/pnj/chocobo.png").toURI().toURL().toString()));
 	        map.put("luigi",new Image(new File("src/main/java/fr/iut/montreuil/S05_R08/tp01_GestionVersion/ressources/pnj/luigi.png").toURI().toURL().toString()));
-	        map.put("panneau",new Image(new File("src/main/java/fr/iut/montreuil/S05_R08/tp01_GestionVersion/ressources/pnj/panneau.png").toURI().toURL().toString()));
-	        map.put("cloud",new Image(new File("src/main/java/fr/iut/montreuil/S05_R08/tp01_GestionVersion/ressources/pnj/cloud.png").toURI().toURL().toString()));
+			map.put("panneau",new Image(new File("src/main/java/fr/iut/montreuil/S05_R08/tp01_GestionVersion/ressources/pnj/panneau.png").toURI().toURL().toString()));
+			map.put("panneau2",new Image(new File("src/main/java/fr/iut/montreuil/S05_R08/tp01_GestionVersion/ressources/pnj/panneau.png").toURI().toURL().toString()));
+			map.put("cloud",new Image(new File("src/main/java/fr/iut/montreuil/S05_R08/tp01_GestionVersion/ressources/pnj/cloud.png").toURI().toURL().toString()));
 	        map.put("épouvantail",new Image(new File("src/main/java/fr/iut/montreuil/S05_R08/tp01_GestionVersion/ressources/pnj/epouvantail.png").toURI().toURL().toString()));
 	
 	        map.put("playerDOWN", new Image(new File("src/main/java/fr/iut/montreuil/S05_R08/tp01_GestionVersion/ressources/player/playerDOWN.png").toURI().toURL().toString()));

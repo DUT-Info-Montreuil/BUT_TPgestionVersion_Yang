@@ -1,5 +1,6 @@
 package fr.iut.montreuil.S05_R08.tp01_GestionVersion.modele.acteurs;
 
+import fr.iut.montreuil.S05_R08.tp01_GestionVersion.modele.quetes.TalkQuete;
 import javafx.scene.image.Image;
 
 import java.util.ArrayList;
@@ -80,6 +81,8 @@ public class Pnj extends Acteur {
                 lines.add("Concorde....con..corde....3.94 ! pourquoi ! 3.94 !!!!");
                 lines.add("Bon aller maintenant faut se mettre à faire le TP si vous voulez une bonne note, on a des évolutions à envoyer en prod !");
                 lines.add("Bon aller maintenant faut se mettre à faire le TP si vous voulez une bonne note, on a des évolutions à envoyer en prod !");
+                lines.add("Soit tu fais 5.000 pas, soit tu consommes une publicité !!! AHAHAHAH !!!");
+                lines.add("Soit tu fais 5.000 pas, soit tu consommes une publicité !!! AHAHAHAH !!!");
                 break;
             case "vieux":
                 lines.add("Mon trésor? vous le cherchez ?! Je l'ai laissé quelque part...");
@@ -130,6 +133,9 @@ public class Pnj extends Acteur {
                 lines.add("Trésor très précieux, ne pas toucher");
                 lines.add("Dur dur la vie de panneau...");
                 lines.add("Le 'Une pièce'... Il existe!");
+                break;
+            case "panneau2":
+                lines.add("\"Throughout Heaven and Earth, I alone am the honored one.\" - Gojo Satoru");
                 break;
             case "épouvantail":
                 lines.add("*Vous frappez l'épouvantail*\nPourquoi faites vous cela ?");
