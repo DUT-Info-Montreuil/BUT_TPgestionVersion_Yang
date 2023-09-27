@@ -50,8 +50,8 @@ public class ListenerLauncher {
                 switch (joueur.getNumeroZone()){
                     case "0":
                         if(joueur.isCollinding(9*16, 16) && !joueur.getListeQuetes().getQueteActuelle().getTitre().startsWith("Chapitre 0"))  {
-                        	joueur.getConsole().afficherJeuHacked();
-                        	//terrainVue.loadMap("1", 36*16, 3*16);
+                        	//joueur.getConsole().afficherJeuHacked();
+                        	terrainVue.loadMap("1", 36*16, 3*16);
                         }
                         break;
                     case "1":
