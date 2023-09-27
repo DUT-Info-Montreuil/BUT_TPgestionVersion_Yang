@@ -49,7 +49,7 @@ public class ListenerLauncher {
             public void changed(ObservableValue observable, Object oldValue, Object newValue) {
                 switch (joueur.getNumeroZone()){
                     case "0":
-                        if(joueur.isCollinding(9*16, 16) && !joueur.getListeQuetes().getQueteActuelle().getTitre().startsWith("Chapitre 0"))  {
+                        if(joueur.isCollinding(9*16, 16) && !joueur.getListeQuetes().getQueteActuelle().getTitre().startsWith("Chapitre 0") && joueur.getNombrePas() >= 5000)  {
                         	//joueur.getConsole().afficherJeuHacked();
                         	terrainVue.loadMap("1", 36*16, 3*16);
                         }

@@ -29,6 +29,7 @@ public class Joueur {
     private IntegerProperty maxHP = new SimpleIntegerProperty();
     private IntegerProperty niveau;
     private QuestLine listeQuetes;
+    private Integer nombrePas;
 
     public Joueur(int x, int y, Terrain zone) {
         arme = new Gourdin(); // Le joueur commence avec un gourdin
@@ -42,6 +43,7 @@ public class Joueur {
         niveau = new SimpleIntegerProperty(1);
         this.inventaire = new Inventaire();
         this.listeQuetes = new QuestLine(this);
+        this.nombrePas = 0;
     }
 
     public ArmeDistance getArmeDistance() {
@@ -129,6 +131,10 @@ public class Joueur {
         this.yProperty.setValue(newY);
     }
 
+    public Integer getNombrePas() {
+        return nombrePas;
+    }
+
     public int getMaxHP() {
         return maxHP.getValue();
     }
@@ -140,21 +146,25 @@ public class Joueur {
     public Inventaire getInventaire() { return this.inventaire; }
 
     public void moveUp () {
+        this.nombrePas += vitesseDeDeplacement;
         this.yProperty.setValue(this.yProperty.getValue()-vitesseDeDeplacement);
         direction.setValue("up");
     }
 
     public void moveDown () {
+        this.nombrePas += vitesseDeDeplacement;
         this.yProperty.setValue(this.yProperty.getValue()+vitesseDeDeplacement);
         direction.setValue("down");
     }
 
     public void moveRight () {
+        this.nombrePas += vitesseDeDeplacement;
         this.xProperty.setValue(this.xProperty.getValue()+vitesseDeDeplacement);
         direction.setValue("right");
     }
 
     public void moveLeft () {
+        this.nombrePas += vitesseDeDeplacement;
         this.xProperty.setValue(this.xProperty.getValue()-vitesseDeDeplacement);
         direction.setValue("left");
     }
