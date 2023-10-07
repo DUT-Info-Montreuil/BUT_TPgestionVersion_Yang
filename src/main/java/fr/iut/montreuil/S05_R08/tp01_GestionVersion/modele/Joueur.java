@@ -324,12 +324,12 @@ public class Joueur {
                 else console.afficherItemIndisponible("miel");
                 break;
             case "meatRadio":
-                if (getInventaire().estDisponible("Viande", 1)) {
-                    getInventaire().eneleverObjet("Viande", 1);
+                if (getInventaire().estDisponible("Pain", 1)) {
+                    getInventaire().eneleverObjet("Pain", 1);
                     regenerer((int)(maxHP.getValue()/2));
                     SoundPlayer.playSpecificSound("eating.wav");
                 }
-                else console.afficherItemIndisponible("viande");
+                else console.afficherItemIndisponible("Pain");
                 break;
             case "Potion":
                 if (getInventaire().estDisponible("Potion", 1)) {

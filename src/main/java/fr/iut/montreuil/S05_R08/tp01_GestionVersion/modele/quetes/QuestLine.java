@@ -31,7 +31,7 @@ public class QuestLine {
 
         quetes.add(new TalkQuete("Chapitre 3 - Injustice", "'Je t'ai bien eu héros, personne ne connaît ce livre laisse tomber !'\nAller parler au maitre du Dojo pour en savoir reellement plus sur le livre de Momoku.", 5, "Niveau", 1, "master"));
         quetes.add(new KillQuete("Chapitre 3 - Injustice", "'Je ne sais pas si tu es a la hauteur pour recevoir ce genre de conaissance, prouve moi ta force avant cela !'\nTuer 2 reptiles au nord.", 5, "", 0, "Reptile", 2));
-        quetes.add(new TalkQuete("Chapitre 3 - Injustice", "Retourner voir le maitre du Dojo.", 100, "Viande", 3, "master"));
+        quetes.add(new TalkQuete("Chapitre 3 - Injustice", "Retourner voir le maitre du Dojo.", 100, "Pain", 3, "master"));
         quetes.add(new KillQuete("Chapitre 3 - Injustice", "'Vous les avez tue !? Vous etes anormalement rapide ! Dans ce cas allez vous occuper des bambous vivants !!'\nTuer 3 bambous vivants au nord.", 10, "", 0, "Bambou", 3));
         quetes.add(new TalkQuete("Chapitre 3 - Injustice", "Retourner voir le maitre du Dojo.", 150, "Potion", 2, "master"));
         quetes.add(new LootQuete("Chapitre 3 - Injustice", "'Donc vous n'etes pas un menteur, votre tenue semble abimee. Allez me chercher quelque chose pour que je la répare.'\nMiner 3 sources de minerai.", 10, "", 0, "SourceMinerai", 3));
@@ -46,7 +46,7 @@ public class QuestLine {
         quetes.add(new KillQuete("Chapitre 4 - Le chemin d'un heros", "Tuer 3 yeux vivants.", 10, "", 0, "Oeil", 3));
         quetes.add(new TalkQuete("Chapitre 4 - Le chemin d'un heros", "Retourner voir le moine.", 200, "Potion", 3, "moine"));
         quetes.add(new TalkQuete("Chapitre 4 - Le chemin d'un heros", "'Vous les avez tués ? Parfait, j'ai reussi à renforcer les barricades. Continuez d'explorer le marais, vous trouverez surement quelque chose au sud !'\nExplorer le sud du marais et trouver des informations.", 10, "", 0, "goldninja"));
-        quetes.add(new TalkQuete("Chapitre 4 - Le chemin d'un heros", "'J'ai reussi, j'ai le livre de Momoku !! Je devrai rentrer, je ne me sens pas bien ici...'\nRetourner voir le moine.", 100, "Viande", 2, "moine"));
+        quetes.add(new TalkQuete("Chapitre 4 - Le chemin d'un heros", "'J'ai reussi, j'ai le livre de Momoku !! Je devrai rentrer, je ne me sens pas bien ici...'\nRetourner voir le moine.", 100, "Pain", 2, "moine"));
         quetes.add(new TalkQuete("Chapitre 4 - Le chemin d'un heros", "'Je n'arrive pas à y croire ! Vous l'avez !! Vous avez le livre de Momoku je le sens ! Il faut prevenir le maitre du Dojo de suite !!!'\nRetourner voir le maitre du Dojo.", 30, "Niveau", 1, "master"));
 
         quetes.add(new TalkQuete("Chapitre 5 - Hallucination collective", "'Vous l'avez... Vous l'avez obtenu heros, laissez moi le toucher.'\n*Le maitre passe son doigt sur le livre...*\n'La naissance du monde a été privé d'un sens primordial !? Comment est-ce possible !?'\nDiscuter avec le maitre.", 30, "", 0, "master"));

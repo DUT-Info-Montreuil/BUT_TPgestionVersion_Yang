@@ -19,7 +19,7 @@ class InventaireTest {
 
     @org.junit.jupiter.api.Test
     void trouverObjet() {
-//       0 Argent | 1 Bois | 2 Diamant | 3 Fer | 4 Miel | 5 MineraiBrut | 6 Nouilles | 7 Potion | 8 Viande
+//       0 Argent | 1 Bois | 2 Diamant | 3 Fer | 4 Miel | 5 MineraiBrut | 6 Nouilles | 7 Potion | 8 Pain
         Assertions.assertEquals(2, this.inventaire.trouverObjet("Diamant"));
         Assertions.assertNotEquals(0, this.inventaire.trouverObjet("Bois") );
     }
@@ -37,7 +37,7 @@ class InventaireTest {
         Assertions.assertEquals(5,this.inventaire.getListObjet().get(bois).getQuantite());
         this.inventaire.ajouterObjet("MineraiBrut", 1);
         Assertions.assertEquals(1,this.inventaire.getListObjet().get(this.inventaire.trouverObjet("MineraiBrut")).getQuantite());
-        Assertions.assertEquals(0, this.inventaire.getListObjet().get(this.inventaire.trouverObjet("Viande")).getQuantite());
+        Assertions.assertEquals(0, this.inventaire.getListObjet().get(this.inventaire.trouverObjet("Pain")).getQuantite());
 
     }
 

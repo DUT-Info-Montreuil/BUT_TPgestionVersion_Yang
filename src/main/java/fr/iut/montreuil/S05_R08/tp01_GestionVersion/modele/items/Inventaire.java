@@ -5,7 +5,6 @@ import javafx.beans.property.SimpleIntegerProperty;
 
 import java.util.ArrayList;
 
-import fr.iut.montreuil.S05_R08.tp01_GestionVersion.modele.acteurs.Acteur;
 import fr.iut.montreuil.S05_R08.tp01_GestionVersion.modele.items.Objets.*;
 
 public class Inventaire {
@@ -24,7 +23,7 @@ public class Inventaire {
         listObjet.add(new MineraiBrut());
         listObjet.add(new Nouilles());
         listObjet.add(new Potion());
-        listObjet.add(new Viande());
+        listObjet.add(new Pain());
         this.nbrOr.setValue(100);
     }
 
