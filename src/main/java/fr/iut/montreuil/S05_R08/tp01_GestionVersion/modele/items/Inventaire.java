@@ -5,6 +5,7 @@ import javafx.beans.property.SimpleIntegerProperty;
 
 import java.util.ArrayList;
 
+import fr.iut.montreuil.S05_R08.tp01_GestionVersion.modele.acteurs.Acteur;
 import fr.iut.montreuil.S05_R08.tp01_GestionVersion.modele.items.Objets.*;
 
 public class Inventaire {
