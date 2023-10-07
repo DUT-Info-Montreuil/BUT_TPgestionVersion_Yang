@@ -24,7 +24,7 @@ public class Inventaire {
         listObjet.add(new MineraiBrut());
         listObjet.add(new Nouilles());
         listObjet.add(new Potion());
-        listObjet.add(new Viande());
+        listObjet.add(new Pain());
         this.nbrOr.setValue(100);
     }
 
